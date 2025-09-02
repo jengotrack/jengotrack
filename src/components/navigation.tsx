@@ -20,16 +20,16 @@ export function Navigation() {
   return (
     <nav className="bg-white shadow-sm border-b border-neutral-200 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-24">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center justify-center py-2 mt-8">
+            <Link href="/" className="flex items-center justify-center py-2 mt-4">
               <Image
                 src="/jengotrack_trimmed_large.png"
                 alt="JengoTrack"
                 width={300}
                 height={197}
-                className="h-24 w-auto object-contain mt-6"
+                className="h-20 w-auto object-contain mt-2"
                 style={{ filter: 'brightness(1.4) contrast(1.6)' }}
               />
             </Link>
