@@ -25,12 +25,13 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://jengotrack.com"),
   icons: {
     icon: [
-      { url: '/favicon.ico' },
-      { url: '/favicon.png', type: 'image/png' },
+      { url: '/favicon.ico', sizes: '32x32' },
+      { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
     ],
     apple: [
-      { url: '/favicon.png' },
+      { url: '/favicon.png', sizes: '180x180' },
     ],
+    shortcut: '/favicon.ico',
   },
   openGraph: {
     title: "JengoTrack - Digital Product Development Studio",
