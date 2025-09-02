@@ -23,13 +23,13 @@ export function Navigation() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center justify-center py-2 mt-4">
+            <Link href="/" className="flex items-center justify-center py-2 mt-6">
               <Image
                 src="/jengotrack_trimmed_large.png"
                 alt="JengoTrack"
                 width={300}
                 height={197}
-                className="h-20 w-auto object-contain mt-2"
+                className="h-20 w-auto object-contain mt-4"
                 style={{ filter: 'brightness(1.4) contrast(1.6)' }}
               />
             </Link>
