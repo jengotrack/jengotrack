@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
@@ -43,6 +44,24 @@ export function HeroSection() {
             transition={{ duration: 0.8 }}
           >
             <div className="space-y-6">
+              <motion.div
+                className="flex items-center space-x-4 mb-6"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1 }}
+              >
+                <Image
+                  src="/jengotrack.png"
+                  alt="JengoTrack"
+                  width={60}
+                  height={60}
+                  className="h-12 w-auto"
+                />
+                <div className="text-3xl font-heading font-bold text-charcoal">
+                  JengoTrack
+                </div>
+              </motion.div>
+              
               <motion.h1 
                 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-charcoal leading-tight"
                 initial={{ opacity: 0, y: 20 }}

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 
@@ -22,8 +23,17 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-heading font-bold text-charcoal">
-              JengoTrack
+            <Link href="/" className="flex items-center space-x-3">
+              <Image
+                src="/jengotrack.png"
+                alt="JengoTrack"
+                width={40}
+                height={40}
+                className="h-10 w-auto"
+              />
+              <span className="text-2xl font-heading font-bold text-charcoal">
+                JengoTrack
+              </span>
             </Link>
           </div>
 

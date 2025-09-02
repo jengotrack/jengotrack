@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { Linkedin, Twitter, Instagram, Mail } from 'lucide-react';
@@ -22,7 +23,16 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-heading font-bold">JengoTrack</h3>
+            <div className="flex items-center space-x-3">
+              <Image
+                src="/jengotrack.png"
+                alt="JengoTrack"
+                width={32}
+                height={32}
+                className="h-8 w-auto"
+              />
+              <h3 className="text-2xl font-heading font-bold">JengoTrack</h3>
+            </div>
             <p className="text-neutral-300 text-sm leading-relaxed">
               Transforming complex challenges into practical, usable products. 
               We build simply, move fast, and focus on lasting impact.
