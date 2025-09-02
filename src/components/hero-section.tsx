@@ -51,12 +51,12 @@ export function HeroSection() {
                 transition={{ duration: 0.8, delay: 0.1 }}
               >
                 <Image
-                  src="/jengotrack.png"
+                  src="/jengotrack_cropped.png"
                   alt="JengoTrack"
-                  width={240}
-                  height={240}
-                  className="h-20 w-20 object-contain"
-                  style={{ filter: 'brightness(1.2) contrast(1.2)' }}
+                  width={189}
+                  height={124}
+                  className="h-16 w-auto object-contain"
+                  style={{ filter: 'brightness(1.2) contrast(1.3)' }}
                 />
               </motion.div>
               
