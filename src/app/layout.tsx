@@ -58,7 +58,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${poppins.variable} antialiased min-h-screen flex flex-col`}
+        className={`${inter.variable} ${poppins.variable} antialiased min-h-screen flex flex-col font-sans`}
+        style={{
+          fontFamily: `${inter.style.fontFamily}, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif`,
+        }}
       >
         <Navigation />
         <main className="flex-1">
