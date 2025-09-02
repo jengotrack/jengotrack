@@ -120,7 +120,7 @@ export function ApproachSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="mailto:hello@jengotrack.com"
+                href="mailto:admin@jengotrack.com"
                 className="bg-orange hover:bg-orange-dark text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 inline-block"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

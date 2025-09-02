@@ -41,10 +41,10 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-medium text-charcoal">Email Us</h3>
                         <Link 
-                          href="mailto:hello@jengotrack.com"
+                          href="mailto:admin@jengotrack.com"
                           className="text-orange hover:text-orange-dark transition-colors"
                         >
-                          hello@jengotrack.com
+                          admin@jengotrack.com
                         </Link>
                       </div>
                     </div>

@@ -44,11 +44,11 @@ export function Footer() {
             <h4 className="text-lg font-heading font-semibold">Get in Touch</h4>
             <div className="space-y-2">
               <Link 
-                href="mailto:hello@jengotrack.com"
+                href="mailto:admin@jengotrack.com"
                 className="flex items-center space-x-2 text-neutral-300 hover:text-orange transition-colors duration-200"
               >
                 <Mail className="h-4 w-4" />
-                <span>hello@jengotrack.com</span>
+                <span>admin@jengotrack.com</span>
               </Link>
             </div>
             
