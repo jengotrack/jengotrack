@@ -34,8 +34,8 @@ export function HeroSection() {
         </svg>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[600px]">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Content */}
           <motion.div 
             className="space-y-8"
@@ -97,15 +97,15 @@ export function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-            <div className="relative w-full max-w-lg">
+            <div className="relative w-full">
               {/* Hero Video */}
-              <div className="relative rounded-lg overflow-hidden shadow-2xl bg-white border border-neutral-200 aspect-video">
+              <div className="relative rounded-lg overflow-hidden shadow-2xl bg-white border border-neutral-200">
                 <video
                   autoPlay
                   muted
                   loop
                   playsInline
-                  className="w-full h-full object-cover"
+                  className="w-full h-auto"
                   poster="/jengotrack_trimmed_large.png"
                 >
                   <source src="/revised_mp4.mp4" type="video/mp4" />
