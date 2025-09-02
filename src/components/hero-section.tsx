@@ -108,7 +108,7 @@ export function HeroSection() {
                   className="w-full h-auto"
                   poster="/jengotrack_trimmed_large.png"
                 >
-                  <source src="/Digital_Economy_Hero_Video_Creation.mp4" type="video/mp4" />
+                  <source src="/revised_mp4.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
