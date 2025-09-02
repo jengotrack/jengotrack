@@ -98,7 +98,7 @@ export function AboutSection() {
               className="bg-white rounded-lg p-6 border border-neutral-200"
             >
               <blockquote className="text-lg text-neutral-700 italic leading-relaxed">
-                &ldquo;The best products don&apos;t just work—they make people&apos;s lives genuinely better. 
+                &ldquo;The best products don&apos;t just work,they make people&apos;s lives genuinely better. 
                 That&apos;s what we strive for with every line of code.&rdquo;
               </blockquote>
               <div className="mt-4 text-sm text-neutral-500">

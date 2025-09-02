@@ -10,13 +10,13 @@ const timelineSteps = [
     icon: Lightbulb,
     title: "Idea",
     description: "Identifying transparency gaps in construction",
-    year: "2023"
+    year: "2022"
   },
   {
     icon: Rocket,
     title: "Prototype",
     description: "Building MVP with real user feedback",
-    year: "2024"
+    year: "2023"
   },
   {
     icon: TrendingUp,
@@ -84,8 +84,8 @@ export function CaseStudySection() {
                 viewport={{ once: true }}
               >
                 Jengo started with a simple mission: bring transparency to construction 
-                projects for diaspora communities. Today, it&apos;s evolving into a platform 
-                trusted by builders, owners, and investors alike.
+                projects for diaspora communities. Built by JengoTrack&apos;s experienced team, 
+                it&apos;s evolving into a platform trusted by builders, owners, and investors alike.
               </motion.p>
             </div>
 
@@ -99,7 +99,7 @@ export function CaseStudySection() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
                   <div className="text-3xl font-heading font-bold mb-2">50+</div>
-                  <div className="text-sm opacity-90">Projects Delivered</div>
+                  <div className="text-sm opacity-90">JengoTrack Projects</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
                   <div className="text-3xl font-heading font-bold mb-2">100%</div>
