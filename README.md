@@ -2,6 +2,8 @@
 
 A modern, mobile-first website for JengoTrack, a product development studio. Built with Next.js, TypeScript, and Tailwind CSS.
 
+🚀 **Live Site**: [jengotrack.vercel.app](https://jengotrack.vercel.app)
+
 ## Features
 
 - **Modern Design**: Clean, professional startup aesthetic with bold typography and orange brand colors
