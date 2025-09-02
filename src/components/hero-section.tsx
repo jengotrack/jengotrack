@@ -98,47 +98,19 @@ export function HeroSection() {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <div className="relative">
-              {/* Main Product Mockup Placeholder */}
-              <div className="bg-white rounded-lg shadow-2xl p-8 border border-neutral-200">
-                <div className="space-y-6">
-                  {/* Header */}
-                  <div className="flex items-center justify-between">
-                    <div className="w-24 h-8 bg-orange rounded"></div>
-                    <div className="flex space-x-2">
-                      <div className="w-3 h-3 bg-neutral-300 rounded-full"></div>
-                      <div className="w-3 h-3 bg-neutral-300 rounded-full"></div>
-                      <div className="w-3 h-3 bg-orange rounded-full"></div>
-                    </div>
-                  </div>
-                  
-                  {/* Content Area */}
-                  <div className="space-y-4">
-                    <div className="h-4 bg-charcoal rounded w-3/4"></div>
-                    <div className="h-3 bg-neutral-300 rounded w-1/2"></div>
-                    <div className="h-3 bg-neutral-300 rounded w-2/3"></div>
-                  </div>
-                  
-                  {/* Chart/Graph Area */}
-                  <div className="h-32 bg-neutral-100 rounded-lg flex items-end justify-center space-x-2 p-4">
-                    {[40, 70, 45, 85, 60].map((height, index) => (
-                      <div 
-                        key={index}
-                        className="bg-orange rounded-t w-8 transition-all duration-1000 ease-out"
-                        style={{ height: `${height}%` }}
-                      ></div>
-                    ))}
-                  </div>
-                  
-                  {/* Bottom Controls */}
-                  <div className="flex space-x-4">
-                    <div className="flex-1 h-10 bg-orange rounded flex items-center justify-center">
-                      <div className="w-16 h-2 bg-white rounded"></div>
-                    </div>
-                    <div className="w-10 h-10 bg-neutral-200 rounded flex items-center justify-center">
-                      <div className="w-4 h-4 bg-neutral-400 rounded"></div>
-                    </div>
-                  </div>
-                </div>
+              {/* Hero Video */}
+              <div className="relative rounded-lg overflow-hidden shadow-2xl bg-white border border-neutral-200">
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="w-full h-auto"
+                  poster="/jengotrack_trimmed_large.png"
+                >
+                  <source src="/Digital_Economy_Hero_Video_Creation.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
 
               {/* Floating Elements */}
