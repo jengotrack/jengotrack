@@ -25,7 +25,7 @@ export function Navigation() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <Image
-                src="/jengotrack.png"
+                src="/jengotrack-opaque.png"
                 alt="JengoTrack"
                 width={200}
                 height={200}
