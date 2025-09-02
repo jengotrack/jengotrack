@@ -35,7 +35,7 @@ export function AboutSection() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: true }}
               >
-                JengoTrack exists to transform complex challenges into practical, 
+                JengoTrack Systems exists to transform complex challenges into practical, 
                 usable products. We build simply, move fast, and focus on lasting impact.
               </motion.p>
             </div>
@@ -102,7 +102,7 @@ export function AboutSection() {
                 That&apos;s what we strive for with every line of code.&rdquo;
               </blockquote>
               <div className="mt-4 text-sm text-neutral-500">
-                — JengoTrack Team
+                — JengoTrack Systems Team
               </div>
             </motion.div>
           </motion.div>

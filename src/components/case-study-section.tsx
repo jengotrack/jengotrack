@@ -84,7 +84,7 @@ export function CaseStudySection() {
                 viewport={{ once: true }}
               >
                 Jengo started with a simple mission: bring transparency to construction 
-                projects for diaspora communities. Built by JengoTrack&apos;s experienced team, 
+                projects for diaspora communities. Built by JengoTrack Systems&apos; experienced team, 
                 it&apos;s evolving into a platform trusted by builders, owners, and investors alike.
               </motion.p>
             </div>
@@ -99,7 +99,7 @@ export function CaseStudySection() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
                   <div className="text-3xl font-heading font-bold mb-2">50+</div>
-                  <div className="text-sm opacity-90">JengoTrack Projects</div>
+                  <div className="text-sm opacity-90">JengoTrack Systems Projects</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
                   <div className="text-3xl font-heading font-bold mb-2">100%</div>

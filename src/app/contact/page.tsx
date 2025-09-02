@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Contact Us - JengoTrack",
-  description: "Get in touch with JengoTrack. Let&apos;s discuss how we can help bring your product vision to life.",
+  title: "Contact Us - JengoTrack Systems",
+  description: "Get in touch with JengoTrack Systems. Let&apos;s discuss how we can help bring your product vision to life.",
 };
 
 export default function ContactPage() {

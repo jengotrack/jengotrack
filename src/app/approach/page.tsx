@@ -2,8 +2,8 @@ import { ApproachSection } from '@/components/approach-section';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Our Approach - JengoTrack",
-  description: "Learn about JengoTrack's product development methodology. We use lean methods, user-centered design, and scalable technology.",
+  title: "Our Approach - JengoTrack Systems",
+  description: "Learn about JengoTrack Systems' product development methodology. We use lean methods, user-centered design, and scalable technology.",
 };
 
 export default function ApproachPage() {

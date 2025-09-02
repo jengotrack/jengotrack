@@ -26,7 +26,7 @@ export function Footer() {
             <div className="flex items-center">
               <Image
                 src="/jengotrack_trimmed_large.png"
-                alt="JengoTrack"
+                alt="JengoTrack Systems"
                 width={230}
                 height={150}
                 className="h-14 w-auto object-contain"
@@ -107,7 +107,7 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-neutral-400 text-sm">
-            © 2024 JengoTrack. All rights reserved.
+            © 2024 JengoTrack Systems. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <Link href="/privacy" className="text-neutral-400 hover:text-orange transition-colors duration-200">

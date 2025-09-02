@@ -26,7 +26,7 @@ export function Navigation() {
             <Link href="/" className="flex items-center justify-center py-2 mt-7">
               <Image
                 src="/jengotrack_trimmed_large.png"
-                alt="JengoTrack"
+                alt="JengoTrack Systems"
                 width={300}
                 height={197}
                 className="h-20 w-auto object-contain mt-5"

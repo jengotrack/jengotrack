@@ -16,12 +16,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "JengoTrack - Digital Product Development Studio",
-  description: "JengoTrack is a product development studio. Our flagship product, Jengo, is transforming how construction projects are managed.",
-  keywords: "product development, construction management, Jengo, software development, startup studio",
-  authors: [{ name: "JengoTrack" }],
-  creator: "JengoTrack",
-  publisher: "JengoTrack",
+  title: "JengoTrack Systems - Digital Product Development Studio",
+  description: "JengoTrack Systems is a product development studio. Our flagship product, Jengo, is transforming how construction projects are managed.",
+  keywords: "product development, construction management, Jengo, software development, startup studio, systems development",
+  authors: [{ name: "JengoTrack Systems" }],
+  creator: "JengoTrack Systems",
+  publisher: "JengoTrack Systems",
   metadataBase: new URL("https://jengotrack.com"),
   icons: {
     icon: [
@@ -34,10 +34,10 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico',
   },
   openGraph: {
-    title: "JengoTrack - Digital Product Development Studio",
+    title: "JengoTrack Systems - Digital Product Development Studio",
     description: "We build digital products that solve real-world problems. Our flagship product, Jengo, is transforming construction project management.",
     url: "https://jengotrack.com",
-    siteName: "JengoTrack",
+    siteName: "JengoTrack Systems",
     locale: "en_US",
     type: "website",
     images: [
@@ -45,13 +45,13 @@ export const metadata: Metadata = {
         url: '/jengotrack.png',
         width: 1200,
         height: 630,
-        alt: 'JengoTrack - Digital Product Development Studio',
+        alt: 'JengoTrack Systems - Digital Product Development Studio',
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "JengoTrack - Digital Product Development Studio",
+    title: "JengoTrack Systems - Digital Product Development Studio",
     description: "We build digital products that solve real-world problems.",
     creator: "@jengotrack",
     images: ['/jengotrack.png'],

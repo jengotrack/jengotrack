@@ -2,8 +2,8 @@ import { ProductsSection } from '@/components/products-section';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Our Products - JengoTrack",
-  description: "Explore JengoTrack's product portfolio. Learn about Jengo, our flagship construction management platform, and upcoming products.",
+  title: "Our Products - JengoTrack Systems",
+  description: "Explore JengoTrack Systems' product portfolio. Learn about Jengo, our flagship construction management platform, and upcoming products.",
 };
 
 export default function ProductsPage() {
