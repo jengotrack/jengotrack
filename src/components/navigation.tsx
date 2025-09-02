@@ -30,7 +30,7 @@ export function Navigation() {
                 width={300}
                 height={197}
                 className="h-24 w-auto object-contain"
-                style={{ filter: 'brightness(1.4) contrast(1.6)', marginTop: '4px' }}
+                style={{ filter: 'brightness(1.4) contrast(1.6)', marginTop: '8px' }}
               />
             </Link>
           </div>
