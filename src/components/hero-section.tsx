@@ -47,7 +47,7 @@ export function HeroSection() {
 
               
               <motion.h1 
-                className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-charcoal leading-tight"
+                className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-charcoal leading-tight"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
@@ -57,7 +57,7 @@ export function HeroSection() {
               </motion.h1>
               
               <motion.p 
-                className="text-xl text-neutral-600 leading-relaxed max-w-2xl"
+                className="text-lg text-neutral-600 leading-relaxed max-w-2xl"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
