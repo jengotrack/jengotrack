@@ -25,12 +25,12 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center">
               <Image
-                src="/jengotrack_cropped.png"
+                src="/jengotrack_large.png"
                 alt="JengoTrack"
-                width={157}
-                height={103}
-                className="h-12 w-auto object-contain"
-                style={{ filter: 'brightness(1.3) contrast(1.5)' }}
+                width={120}
+                height={120}
+                className="h-12 w-12 object-contain"
+                style={{ filter: 'brightness(1.4) contrast(1.6)' }}
               />
             </div>
             <p className="text-neutral-300 text-sm leading-relaxed">

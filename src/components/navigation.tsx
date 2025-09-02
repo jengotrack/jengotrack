@@ -25,12 +25,12 @@ export function Navigation() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center justify-center py-2">
               <Image
-                src="/jengotrack_cropped.png"
+                src="/jengotrack_large.png"
                 alt="JengoTrack"
                 width={180}
-                height={118}
-                className="h-14 w-auto object-contain"
-                style={{ filter: 'brightness(1.3) contrast(1.5)', marginTop: '4px' }}
+                height={180}
+                className="h-14 w-14 object-contain"
+                style={{ filter: 'brightness(1.4) contrast(1.6)', marginTop: '4px' }}
               />
             </Link>
           </div>
