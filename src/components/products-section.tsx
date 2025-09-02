@@ -6,25 +6,31 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
 
-export function ProductsSection() {
+interface ProductsSectionProps {
+  showHeading?: boolean;
+}
+
+export function ProductsSection({ showHeading = true }: ProductsSectionProps) {
   return (
     <section className="bg-white py-20 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-charcoal mb-6">
-            Our Products
-          </h2>
-          <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            We focus on building products that make a real difference. 
-            Starting with construction project management, expanding to new verticals.
-          </p>
-        </motion.div>
+        {showHeading && (
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-charcoal mb-6">
+              Our Products
+            </h2>
+            <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
+              We focus on building products that make a real difference. 
+              Starting with construction project management, expanding to new verticals.
+            </p>
+          </motion.div>
+        )}
 
         <div className="max-w-5xl mx-auto">
           {/* Jengo - Flagship Product */}

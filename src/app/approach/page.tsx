@@ -20,7 +20,7 @@ export default function ApproachPage() {
           </p>
         </div>
       </section>
-      <ApproachSection />
+      <ApproachSection showHeading={false} />
     </div>
   );
 }

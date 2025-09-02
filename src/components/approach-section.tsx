@@ -28,24 +28,30 @@ const approaches = [
   }
 ];
 
-export function ApproachSection() {
+interface ApproachSectionProps {
+  showHeading?: boolean;
+}
+
+export function ApproachSection({ showHeading = true }: ApproachSectionProps) {
   return (
     <section className="bg-white py-20 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-charcoal mb-6">
-            Our Approach
-          </h2>
-          <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            We believe in building products the right way. Fast, user-focused, and built to last.
-          </p>
-        </motion.div>
+        {showHeading && (
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-charcoal mb-6">
+              Our Approach
+            </h2>
+            <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
+              We believe in building products the right way. Fast, user-focused, and built to last.
+            </p>
+          </motion.div>
+        )}
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {approaches.map((approach, index) => (

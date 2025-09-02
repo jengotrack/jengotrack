@@ -20,7 +20,7 @@ export default function ProductsPage() {
           </p>
         </div>
       </section>
-      <ProductsSection />
+      <ProductsSection showHeading={false} />
     </div>
   );
 }

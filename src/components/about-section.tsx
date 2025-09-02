@@ -3,7 +3,11 @@
 import { motion } from 'framer-motion';
 import { Target, Lightbulb, Heart } from 'lucide-react';
 
-export function AboutSection() {
+interface AboutSectionProps {
+  showHeading?: boolean;
+}
+
+export function AboutSection({ showHeading = true }: AboutSectionProps) {
   return (
     <section className="bg-neutral-light py-20 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

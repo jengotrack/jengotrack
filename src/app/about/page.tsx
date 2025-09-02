@@ -20,7 +20,7 @@ export default function AboutPage() {
           </p>
         </div>
       </section>
-      <AboutSection />
+      <AboutSection showHeading={false} />
     </div>
   );
 }
