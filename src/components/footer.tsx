@@ -27,9 +27,10 @@ export function Footer() {
               <Image
                 src="/jengotrack.png"
                 alt="JengoTrack"
-                width={96}
-                height={96}
-                className="h-8 w-8"
+                width={160}
+                height={160}
+                className="h-10 w-10 object-contain"
+                style={{ filter: 'brightness(1.2) contrast(1.2)' }}
               />
             </div>
             <p className="text-neutral-300 text-sm leading-relaxed">

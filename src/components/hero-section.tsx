@@ -53,9 +53,10 @@ export function HeroSection() {
                 <Image
                   src="/jengotrack.png"
                   alt="JengoTrack"
-                  width={180}
-                  height={180}
-                  className="h-16 w-16"
+                  width={240}
+                  height={240}
+                  className="h-20 w-20 object-contain"
+                  style={{ filter: 'brightness(1.2) contrast(1.2)' }}
                 />
               </motion.div>
               

@@ -27,9 +27,10 @@ export function Navigation() {
               <Image
                 src="/jengotrack.png"
                 alt="JengoTrack"
-                width={120}
-                height={120}
-                className="h-10 w-10"
+                width={200}
+                height={200}
+                className="h-12 w-12 object-contain"
+                style={{ filter: 'brightness(1) contrast(1.2)' }}
               />
             </Link>
           </div>
