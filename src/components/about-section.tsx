@@ -56,7 +56,7 @@ export function AboutSection() {
                     Mission-Driven
                   </h3>
                   <p className="text-neutral-600 leading-relaxed">
-                    Every product we build serves a real purpose. We don't build for the sake of building—we solve problems that matter.
+                    Every product we build serves a real purpose. We don&apos;t build for the sake of building—we solve problems that matter.
                   </p>
                 </div>
               </div>
@@ -98,8 +98,8 @@ export function AboutSection() {
               className="bg-white rounded-lg p-6 border border-neutral-200"
             >
               <blockquote className="text-lg text-neutral-700 italic leading-relaxed">
-                "The best products don't just work—they make people's lives genuinely better. 
-                That's what we strive for with every line of code."
+                &ldquo;The best products don&apos;t just work—they make people&apos;s lives genuinely better. 
+                That&apos;s what we strive for with every line of code.&rdquo;
               </blockquote>
               <div className="mt-4 text-sm text-neutral-500">
                 — JengoTrack Team

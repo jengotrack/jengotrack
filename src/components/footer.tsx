@@ -72,7 +72,7 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-heading font-semibold">Stay Updated</h4>
             <p className="text-neutral-300 text-sm">
-              Stay updated on what we're building.
+              Stay updated on what we&apos;re building.
             </p>
             <form onSubmit={handleSubmit} className="space-y-3">
               <input

@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Contact Us - JengoTrack",
-  description: "Get in touch with JengoTrack. Let's discuss how we can help bring your product vision to life.",
+  description: "Get in touch with JengoTrack. Let&apos;s discuss how we can help bring your product vision to life.",
 };
 
 export default function ContactPage() {
@@ -16,11 +16,11 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-charcoal mb-6">
-              Let's Build Something Amazing
+              Let&apos;s Build Something Amazing
             </h1>
             <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
               Ready to transform your ideas into practical, usable products? 
-              We'd love to hear about your project and explore how we can help.
+              We&apos;d love to hear about your project and explore how we can help.
             </p>
           </div>
 

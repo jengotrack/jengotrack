@@ -84,7 +84,7 @@ export function CaseStudySection() {
                 viewport={{ once: true }}
               >
                 Jengo started with a simple mission: bring transparency to construction 
-                projects for diaspora communities. Today, it's evolving into a platform 
+                projects for diaspora communities. Today, it&apos;s evolving into a platform 
                 trusted by builders, owners, and investors alike.
               </motion.p>
             </div>

@@ -115,8 +115,8 @@ export function ApproachSection() {
               Ready to build something amazing?
             </h3>
             <p className="text-neutral-600 mb-8 max-w-2xl mx-auto">
-              We're always looking for exciting challenges and passionate teams to work with. 
-              Let's discuss how we can help bring your vision to life.
+              We&apos;re always looking for exciting challenges and passionate teams to work with. 
+              Let&apos;s discuss how we can help bring your vision to life.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
