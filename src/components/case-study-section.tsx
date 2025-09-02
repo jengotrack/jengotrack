@@ -98,8 +98,8 @@ export function CaseStudySection() {
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                  <div className="text-3xl font-heading font-bold mb-2">Kenya</div>
-                  <div className="text-sm opacity-90">Primary Market</div>
+                  <div className="text-3xl font-heading font-bold mb-2">50+</div>
+                  <div className="text-sm opacity-90">Projects Delivered</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
                   <div className="text-3xl font-heading font-bold mb-2">100%</div>
