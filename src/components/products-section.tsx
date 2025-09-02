@@ -26,14 +26,13 @@ export function ProductsSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="max-w-5xl mx-auto">
           {/* Jengo - Flagship Product */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
-            className="lg:col-span-2"
           >
             <Card className="h-full border-2 border-orange shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-8">
@@ -162,58 +161,6 @@ export function ProductsSection() {
                       </div>
                     </div>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
-          </motion.div>
-
-          {/* Coming Soon Products */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            viewport={{ once: true }}
-            className="space-y-6"
-          >
-            {/* Coming Soon Card 1 */}
-            <Card className="border border-neutral-200 opacity-60">
-              <CardContent className="p-6">
-                <div className="space-y-4">
-                  <div className="flex items-center justify-between">
-                    <h4 className="text-lg font-heading font-semibold text-neutral-500">
-                      Product 2
-                    </h4>
-                    <span className="bg-neutral-200 text-neutral-500 px-2 py-1 rounded text-xs">
-                      Coming Soon
-                    </span>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="h-3 bg-neutral-200 rounded w-full"></div>
-                    <div className="h-3 bg-neutral-200 rounded w-3/4"></div>
-                    <div className="h-3 bg-neutral-200 rounded w-1/2"></div>
-                  </div>
-                  <div className="h-16 bg-neutral-100 rounded"></div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Coming Soon Card 2 */}
-            <Card className="border border-neutral-200 opacity-60">
-              <CardContent className="p-6">
-                <div className="space-y-4">
-                  <div className="flex items-center justify-between">
-                    <h4 className="text-lg font-heading font-semibold text-neutral-500">
-                      Product 3
-                    </h4>
-                    <span className="bg-neutral-200 text-neutral-500 px-2 py-1 rounded text-xs">
-                      Coming Soon
-                    </span>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="h-3 bg-neutral-200 rounded w-full"></div>
-                    <div className="h-3 bg-neutral-200 rounded w-2/3"></div>
-                  </div>
-                  <div className="h-16 bg-neutral-100 rounded"></div>
                 </div>
               </CardContent>
             </Card>
