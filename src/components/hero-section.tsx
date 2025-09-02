@@ -54,8 +54,8 @@ export function HeroSection() {
                   src="/jengotrack.png"
                   alt="JengoTrack"
                   width={180}
-                  height={60}
-                  className="h-12 w-auto"
+                  height={180}
+                  className="h-16 w-16"
                 />
               </motion.div>
               

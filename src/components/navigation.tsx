@@ -28,8 +28,8 @@ export function Navigation() {
                 src="/jengotrack.png"
                 alt="JengoTrack"
                 width={120}
-                height={40}
-                className="h-10 w-auto"
+                height={120}
+                className="h-10 w-10"
               />
             </Link>
           </div>

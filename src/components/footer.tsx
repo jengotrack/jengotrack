@@ -27,9 +27,9 @@ export function Footer() {
               <Image
                 src="/jengotrack.png"
                 alt="JengoTrack"
-                width={120}
-                height={32}
-                className="h-8 w-auto"
+                width={96}
+                height={96}
+                className="h-8 w-8"
               />
             </div>
             <p className="text-neutral-300 text-sm leading-relaxed">
