@@ -23,6 +23,15 @@ export const metadata: Metadata = {
   creator: "JengoTrack",
   publisher: "JengoTrack",
   metadataBase: new URL("https://jengotrack.com"),
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon.png', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/favicon.png' },
+    ],
+  },
   openGraph: {
     title: "JengoTrack - Digital Product Development Studio",
     description: "We build digital products that solve real-world problems. Our flagship product, Jengo, is transforming construction project management.",
@@ -30,12 +39,21 @@ export const metadata: Metadata = {
     siteName: "JengoTrack",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: '/jengotrack.png',
+        width: 1200,
+        height: 630,
+        alt: 'JengoTrack - Digital Product Development Studio',
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "JengoTrack - Digital Product Development Studio",
     description: "We build digital products that solve real-world problems.",
     creator: "@jengotrack",
+    images: ['/jengotrack.png'],
   },
   robots: {
     index: true,
